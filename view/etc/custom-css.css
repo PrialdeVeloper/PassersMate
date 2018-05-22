@@ -1,0 +1,72 @@
+html,
+body{
+  height: 100%;
+}
+
+/*Navbar*/
+.header-image{
+	width: 250px;
+	margin-left: 125px
+}
+
+a{
+	font-family: 'Varela Round', sans-serif;
+	text-decoration: none!important;
+}
+
+@media screen and (max-width: 920px) /* Mobile laptop*/ {
+  .header-image {
+   margin-left: 50px;
+  }
+
+  .pr-5{
+  	padding-right: 2rem !important;
+  }
+}
+
+@media screen and (max-width: 500px) /* Mobile lg*/ {
+  .header-image {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 375px) /* Mobile md*/ {
+  .header-image {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 320px) /* Mobile sm*/ {
+  .header-image {
+  	width: 200px;
+    margin-left: 20px;
+  }
+}
+
+/*End of navbar*/
+
+/*footer*/
+.footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+}
+
+.footer-color{
+	background-color: #3D464D;
+}
+
+.footer-size{
+	padding: 45px 0;
+}
+
+.footer-image{
+	width: 125px;
+	height: 80px;
+}
+
+footer{
+	bottom: 0;
+}
+/*end of footer*/
