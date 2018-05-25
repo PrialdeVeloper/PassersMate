@@ -1,0 +1,512 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	background-color: #fafafa;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+html, body {
+    color: #3D464D;
+    font-size: 16px;
+}
+#kalibrr-site {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	min-height: 100vh;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+.fb_reset {
+	background: none;
+	border: 0;
+	border-spacing: 0;
+	color: #000;
+	cursor: auto;
+	direction: ltr;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	letter-spacing: normal;
+	line-height: 1;
+	margin: 0;
+	overflow: visible;
+	padding: 0;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 0;
+	text-shadow: none;
+	text-transform: none;
+	visibility: visible;
+	white-space: normal;
+	word-spacing: normal;
+}
+.fb_reset > div {
+	overflow: hidden;
+}
+#content {
+	position: relative;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+/*navigation*/
+ul {
+    list-style-type: none;
+    margin-top:2px;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+    height:60px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    font-size:16px;
+    padding: 18px 10px;
+    text-decoration: none;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+    font-family: 'Varela Round', sans-serif;
+    font-weight:400;
+}
+
+li a:hover, li a:focus {
+    text-decoration: none;
+    outline: none;
+    opacity: 0.8;
+    color: #6195FF;
+} 	
+.li1{
+	margin-right:80px;
+
+}
+li.active a {
+        background: transparent;
+
+ }
+
+#logo {
+    width:300px;
+    height:;
+    display: block;
+    margin-left:30%;
+    margin-top:-105px;
+}
+/*end of nav*/
+/*whole register container*/
+
+#tesda{
+	width:20px;
+}
+#seeker{
+	width:20px;
+}
+.text-heavy {
+    font-weight: bold !important;
+}
+h6 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+	margin: 0 0 12px;
+}
+.main-content {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+.page-container {
+	padding-top: 32px;
+	padding-bottom: 32px;
+	position: relative;
+}
+.container {
+	width: 1100px;
+}
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.progress-bar, .text-center {
+	text-align: center;
+}
+#universal-signup {
+	min-height: 100vh;
+}
+.flex-center-md {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.row {
+	margin-left: -10px;
+	margin-right: -10px;
+}
+.col-md-5 {
+	width: 41.66667%;
+}
+[kb-employer-signup], [kb-candidate-signup] {
+	margin: 40px 0;
+}
+[kb-employer-signup] .panel, [kb-candidate-signup] .panel {
+	height: 324px;
+}
+[kb-employer-signup], [kb-candidate-signup] {
+	/* margin: 16px 0; */
+}
+.panel-shadowed {
+	box-shadow: 0 1px 3px #ccc;
+}
+.panel {
+	border: 0;
+	position: relative;
+}
+.panel {
+	margin-bottom: 24px;
+	background-color: #fff;
+	border-radius: 4px;
+}
+.signup-card {
+	padding: 50px 40px;
+}
+.panel-body {
+	padding: 24px;
+}
+h5, .h5 {
+	font-size: 25.008px;
+}
+h4, .h4, h5, .h5, h6, .h6 {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: inherit;
+	font-weight: normal;
+	line-height: 1.5;
+	color: inherit;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+.h6-glad{
+	font-size:23px;
+}
+p {
+	margin: 0 0 12px;
+	font-size:17px;
+}
+p {
+	word-break: break-word;
+}
+.btn-lg {
+	position: relative;
+}
+.btn-lg {
+	padding: 10px 16px;
+	font-size: 16px;
+	line-height: 1.33;
+	border-radius: 4px;
+}
+.btn-primary {
+	color: #fff;
+	background-color: #39c;
+	border-color: #2e8ab8;
+}
+.btn {
+	display: inline-block;
+	margin-bottom: 0;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	min-height: 36px;
+	font-weight: bold;
+	padding: 5px 12px;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: 4px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+[ng-click], [dropdown-toggle] {
+	cursor: pointer;
+}
+a {
+	color: #008BDC;
+	text-decoration: none;
+}
+a {
+	background: transparent;
+}
+.text-small {
+	font-size: .875rem;
+}
+.btn-link {
+	cursor: pointer;
+	text-align: left;
+	padding: 0;
+}
+.btn-sm {
+	padding: 5px 10px;
+	font-size: .875rem;
+	line-height: 1.5;
+	border-radius: 2px;
+}
+.btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
+	border-color: transparent;
+}
+.active{
+	border-bottom:3px solid #3399CC;
+	padding-bottom:1px;
+	padding-top:2px;
+	margin-top:16px;
+}
+.btn-link, .btn-link:active, .btn-link[disabled], fieldset[disabled] .btn-link {
+	background-color: transparent;
+	box-shadow: none;
+}
+.btn-link {
+	color: #008BDC;
+	font-weight: normal;
+	cursor: pointer;
+	border-radius: 0;
+}
+.btn {
+	display: inline-block;
+	margin-bottom: 0;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	min-height: 36px;
+	font-weight: bold;
+	padding: 5px 12px;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: 4px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+button {
+	margin: 0;
+}
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+	-webkit-appearance: button;
+	cursor: pointer;
+}
+button, select {
+	text-transform: none;
+}
+button {
+	overflow: visible;
+}
+button, input, optgroup, select, textarea {
+	color: inherit;
+	font: inherit;
+	margin: 0;
+}
+.col-md-2 {
+	width: 16.66667%;
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+	float: left;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+	position: relative;
+	min-height: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.t-divider {
+	position: relative;
+	border-left: 1px solid #ccc;
+	border-bottom: 0;
+	margin-left: 50%;
+	height: 300px;
+	text-align: center;
+}
+.t-or {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	margin-left: -50%;
+	width: 100%;
+}
+.t-or {
+	background: #fafafa;
+	display: inline-block;
+	padding: 0 8px;
+	z-index: 1;
+}
+.col-md-5 {
+	width: 41.66667%;
+}
+.signup-card {
+	padding: 50px 40px;
+}
+[kb-employer-signup] .panel, [kb-candidate-signup] .panel {
+	height: 324px;
+}
+.panel-shadowed {
+	box-shadow: 0 1px 3px #ccc;
+}
+.signup-card {
+	padding: 50px 40px;
+}
+.btn-lg {
+	position: relative;
+}
+.btn-lg {
+	padding: 10px 16px;
+	font-size: 16px;
+	line-height: 1.33;
+	border-radius: 4px;
+}
+.btn-success {
+	color: #fff;
+	background-color: #24A252;
+	border-color: #1f8d47;
+}
+.btn {
+	display: inline-block;
+	margin-bottom: 0;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	min-height: 36px;
+	font-weight: bold;
+	padding: 5px 12px;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: 4px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+a {
+	color: #008BDC;
+	text-decoration: none;
+}
+#universal-signup .acc-exists {
+	font-size: 20px;
+}
+.text-mini {
+	font-size: .80rem;
+}
+/*end of register*/
+/*------------------------------------*\
+	Footer
+\*------------------------------------*/
+
+#footer {
+    position: relative;
+}
+
+.footer-logo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.footer-logo>a>img {
+    max-height: 80px;
+}
+
+.footer-copyright p {
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.bg-dark {
+	background-color: #1C1D21;
+}
+.sm-padding {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.container {
+	width: 1170px;
+}
+.container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.row {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+.col-md-12 {
+	width: 100%;
+}
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+	float: left;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.footer-logo {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+
+

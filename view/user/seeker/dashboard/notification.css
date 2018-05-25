@@ -1,0 +1,9 @@
+.grid-temp3{
+  display: grid;
+  grid-template-columns: 2% 35% 54%;
+  
+}
+.grid-conn1{
+  box-sizing: border-box;
+  background-color: white;
+}

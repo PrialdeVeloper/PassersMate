@@ -20,14 +20,21 @@ a{
   }
 
   .pr-5{
-  	padding-right: 2rem !important;
+  	padding-right: 2em !important;
   }
+}
+
+@media screen and (max-width: 767px) /* Mobile xl*/ {
+   ul.nav:first-child li.pr-5{
+    padding-right: 0em!important;
+    }
 }
 
 @media screen and (max-width: 500px) /* Mobile lg*/ {
   .header-image {
     margin-left: 40px;
   }
+  
 }
 
 @media screen and (max-width: 375px) /* Mobile md*/ {
@@ -36,10 +43,10 @@ a{
   }
 }
 
-@media screen and (max-width: 320px) /* Mobile sm*/ {
+@media screen and (max-width: 330px) /* Mobile sm*/ {
   .header-image {
   	width: 200px;
-    margin-left: 20px;
+    margin-left: 8px;
   }
 }
 

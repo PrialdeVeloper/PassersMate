@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Seeker Dashboard</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel="stylesheet" type="text/css" href=".../.../.../etc/fontawesome/css/fontawesome-all.css">
+<link type="text/css" rel="stylesheet" href="signup.css" />
+<link type="text/css" rel="stylesheet" href="dashboard.css" />
+<link type="text/css" rel="stylesheet" href="search.css" />
+ <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Junction">
+   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Prociono"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- Font Awesome Icon -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+   <link rel="stylesheet" type="text/css" href="print.css" media="print">
+<style>
+html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
+</style>
+</head>
+<body class="w3-theme-l5">
+
+<!-- Navbar -->
+<!-- <div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"><i class="fa fa-home w3-margin-right"></i>Logo</a>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="News"><i class="fa fa-globe"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Account Settings"><i class="fa fa-user"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-envelope"></i></a>
+  <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button w3-padding-large" title="Notifications"><i class="fa fa-bell"></i><span class="w3-badge w3-right w3-small w3-green">3</span></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block" style="width:300px">
+      <a href="#" class="w3-bar-item w3-button">One new friend request</a>
+      <a href="#" class="w3-bar-item w3-button">John Doe posted on your wall</a>
+      <a href="#" class="w3-bar-item w3-button">Jane likes your post</a>
+    </div>
+  </div>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="My Account">
+    <img src="img/pablo1.jpg" class="w3-circle" style="height:50px;width:50px" alt="Avatar">
+  </a>
+ </div>
+</div> -->
+
+<nav>
+      <ul>
+        <li>
+          <a href="file:///C:/Users/MarveeLoper/Downloads/Storyboard%20PM/creative-agency-colorlib/creative-agency/index.html">
+           <img src="img/logo-2.png" id="logo"/>
+          </a>
+        </li>
+        <li style="float:right; margin-top:-6px;margin-left:-25px;" class="dropdown open">
+        <a class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white dropdown-toggle" data-toggle="dropdown" title="My Account">
+        <img src="img/seeker1.png" class="w3-circle" style="height:50px;width:50px" alt="Avatar">
+        <span class="caret"></span>
+         </a>
+         <ul class="dropdown-menu" role="dropdown">
+         	<li><a href="#">Change Password</a></li>
+         	<li><a href="#">Deactivate Account</a></li>
+         	<li><a href="#">Logout</a></li>
+         </ul>
+       </li>
+       <li style="float:right; margin-top:10px; margin-left:-26px;">
+            <button class="w3-button" title="Notifications">
+              <i class="fa fa-bell">
+              </i>
+              <span class="w3-badge w3-right w3-small w3-blue">3
+              </span>
+            </button>            
+       </li>
+        <li style="float:right; margin-top:7px;">
+             <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-envelope"></i></a>     
+       </li>
+        <li style="float:right"><a  href="file:///C:/Users/MarveeLoper/Downloads/Storyboard%20PM/creative-agency-colorlib/creative-agency/search.html">Home</a></li>
+         <li style="float:right; margin-top:20px; padding-right: 20px; color:blue;">
+       		<i class="fa fa-exchange"></i>
+       </li>
+
+      </ul>
+         <section class="container">
+                        <div class="grid12 column first last ex-odd top-1"><div class="block widget widget-menu no-title clearfix "><div class="content">
+        <nav class="ex-menu hidden-phone" dropdown-animation="scale-up" dropdown-sub-animation="slide-right">
+
+            
+            <ul class="l1"><li class="item638 parent"><a title="Arts &amp; Multimedia">Arts &amp; Multimedia</a><span class="dropdown-spacer"></span><div class="dropdown cols1 " style="width: 200px;">
+<div class="column col1 first" style="width: 200px;"><ul class="l2"><li class="item678 first"><a href="https://raket.ph/index.php?searchword=Actors&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=678">Actors</a></li><li class="item672"><a href="https://raket.ph/index.php?searchword=Animators&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=672">Animators</a></li><li class="item829"><a href="https://raket.ph/index.php?searchword=Choreographers&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=829">Choreographers</a></li><li class="item677"><a href="https://raket.ph/index.php?searchword=Directors&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=677">Directors</a></li><li class="item673"><a href="https://raket.ph/index.php?searchword=Djs&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=673">DJs</a></li><li class="item639"><a href="https://raket.ph/index.php?searchword=Graphic%20Artists&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=639">Graphic Artists</a></li><li class="item881"><a href="https://raket.ph/index.php?searchword=Illustrators&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=881">Illustrators</a></li><li class="item674"><a href="https://raket.ph/index.php?searchword=Interior%20Designers&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=674">Interior Designers</a></li><li class="item675"><a href="https://raket.ph/index.php?searchword=Music%20Professionals&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=675">Music Professionals</a></li><li class="item671"><a href="https://raket.ph/index.php?searchword=Photographers&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=671">Photographers</a></li><li class="item679"><a href="https://raket.ph/index.php?searchword=Production%20Professionals&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=679">Production Professionals</a></li><li class="item659"><a href="https://raket.ph/index.php?searchword=Videographers&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=659">Videographers</a></li><li class="item676"><a href="https://raket.ph/index.php?searchword=Voice%20Over%20Professionals&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=676">Voice Over Professionals</a></li><li class="item658 last"><a href="https://raket.ph/index.php?searchword=Web%20Designers&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=658">Web Designers</a></li></ul></div></div>
+</li><li class="item640 parent">
+  <a title="Information Technology">Information Technology</a><span class="dropdown-spacer"></span><div class="dropdown cols1 " style="width: 200px;">
+<div class="column col1 first" style="width: 200px;"><ul class="l2"><li class="item878 first"><a href="https://raket.ph/index.php?searchword=Computer%20Technicians&amp;location_id=0&amp;option=com_search&amp;Itemid=878">Computer Technicians</a></li><li class="item641"><a href="https://raket.ph/index.php?searchword=Database%20Administrators&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=641">Database Administrators</a></li><li class="item660"><a href="https://raket.ph/index.php?searchword=Developers&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=660">Developers</a></li><li class="item882"><a href="https://raket.ph/index.php?searchword=Game%20Testers&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=882">Game Testers</a></li><li class="item661"><a href="https://raket.ph/index.php?searchword=IT%20Auditors&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=661">IT Auditors</a></li><li class="item688"><a href="https://raket.ph/index.php?searchword=IT%20Consultants&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=688">IT Consultants</a></li><li class="item680"><a href="https://raket.ph/index.php?searchword=IT%20Security%20Experts&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=680">IT Security Experts</a></li><li class="item681"><a href="https://raket.ph/index.php?searchword=Network%20Engineers&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=681">Network Engineers</a></li><li class="item685"><a href="https://raket.ph/index.php?searchword=SEO%20Experts&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=685">SEO Experts</a></li><li class="item683"><a href="https://raket.ph/index.php?searchword=Server%20Administrators&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=683">Server Administrators</a></li><li class="item868 last"><a href="https://raket.ph/index.php?searchword=Software%20QA%20Consultants&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=868">Software QA Consultants</a></li></ul></div></div>
+</li><li class="item642 parent"><a title="Business, Finance &amp; Legal">Carpentry, Engineering & Automotive</a><span class="dropdown-spacer"></span><div class="dropdown cols1 " style="width: 200px;">
+<div class="column col1 first" style="width: 200px;"><ul class="l2"><li class="item643 first"><a href="https://raket.ph/index.php?searchword=Accountants%20&amp;%20Bookkeepers&amp;location_id=0&amp;option=com_search&amp;Itemid=643">Accountants &amp; Bookkeepers</a></li><li class="item663"><a href="https://raket.ph/index.php?searchword=Business%20Consultants&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=663">Business Consultants</a></li><li class="item690"><a href="https://raket.ph/index.php?searchword=Financial%20Consultants&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=690">Financial Consultants</a></li><li class="item888"><a href="https://raket.ph/index.php?searchword=HR%20Professionals&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=888">HR Professionals</a></li><li class="item691"><a href="https://raket.ph/index.php?searchword=Investment%20Consultants&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=691">Investment Consultants</a></li><li class="item662"><a href="https://raket.ph/index.php?searchword=Lawyers&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=662">Lawyers</a></li><li class="item693"><a href="https://raket.ph/index.php?searchword=Marketing%20Professionals&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=693">Marketing Professionals</a></li><li class="item696"><a href="https://raket.ph/index.php?searchword=Operations%20Consultants&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=696">Operations Consultants</a></li><li class="item828"><a href="https://raket.ph/index.php?searchword=Paralegals&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=828">Paralegals</a></li><li class="item689"><a href="https://raket.ph/index.php?searchword=Project%20Managers&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=689">Project Managers</a></li><li class="item937"><a href="https://raket.ph/index.php?searchword=Real%20Estate%20Professionals&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=937">Real Estate Professionals</a></li><li class="item935"><a href="https://raket.ph/index.php?searchword=Sales%20Professionals&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=935">Sales Professionals</a></li><li class="item840"><a href="https://raket.ph/index.php?searchword=Social%20Media%20Professionals&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=840">Social Media Professionals</a></li><li class="item833"><a href="https://raket.ph/index.php?searchword=Statisticians%20&amp;%20Researchers&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=833">Statisticians &amp; Researchers</a></li><li class="item837 last"><a href="https://raket.ph/index.php?searchword=Virtual%20Assistants&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=837">Virtual Assistants</a></li></ul></div></div>
+</li><li class="item644 parent"><a title="Lifestyle &amp; Entertainment">Lifestyle &amp; Entertainment</a><span class="dropdown-spacer"></span><div class="dropdown cols1 " style="width: 200px;">
+<div class="column col1 first" style="width: 200px;"><ul class="l2"><li class="item698 first"><a href="https://raket.ph/index.php?searchword=Event%20Hosts&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=698">Event Hosts</a></li><li class="item665"><a href="https://raket.ph/index.php?searchword=Events%20Organizers&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=665">Events Organizers</a></li><li class="item697"><a href="https://raket.ph/index.php?searchword=Fashion%20Designers%20&amp;%20Stylists&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=697">Fashion Designers &amp; Stylists</a></li><li class="item704"><a href="https://raket.ph/index.php?searchword=Feng%20Shui%20Experts&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=704">Feng Shui Experts</a></li><li class="item702"><a href="https://raket.ph/index.php?searchword=Fortune%20Tellers&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=702">Fortune Tellers</a></li><li class="item825"><a href="https://raket.ph/index.php?searchword=Hair%20&amp;%20Make%20up%20Artists&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=825">Hair &amp; Make up Artists</a></li><li class="item839"><a href="https://raket.ph/index.php?searchword=HRM%20Professionals&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=839">HRM Professionals</a></li><li class="item887"><a href="https://raket.ph/index.php?searchword=Models%20&amp;%20Promodizers&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=887">Models &amp; Promodizers</a></li><li class="item703"><a href="https://raket.ph/index.php?searchword=Party%20Entertainers&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=703">Performers</a></li><li class="item826"><a href="https://raket.ph/index.php?searchword=Tattoo%20Artists&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=826">Tattoo Artists</a></li><li class="item838 last"><a href="https://raket.ph/index.php?searchword=Tourism%20Professionals&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=838">Tourism Professionals</a></li></ul></div></div>
+</li><li class="item646 parent last"><a title="Others">Others</a><span class="dropdown-spacer"></span><div class="dropdown cols1 " style="width: 200px;">
+<div class="column col1 first" style="width: 200px;"><ul class="l2"><li class="item668 parent first"><a title="Education">Education</a><span class="dropdown-spacer"></span><div class="dropdown cols1 " style="width: 200px;">
+<div class="column col1 first" style="width: 200px;"><ul class="l3"><li class="item716 first"><a href="https://raket.ph/index.php?searchword=Teachers&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=716">Teachers</a></li><li class="item669 last"><a href="https://raket.ph/index.php?searchword=Tutors&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=669">Tutors</a></li></ul></div></div>
+</li><li class="item724 parent"><a title="Engineering">Engineering</a><span class="dropdown-spacer"></span><div class="dropdown cols1 " style="width: 200px;">
+<div class="column col1 first" style="width: 200px;"><ul class="l3"><li class="item831 first"><a href="https://raket.ph/index.php?searchword=Architects&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=831">Architects</a></li><li class="item728"><a href="https://raket.ph/index.php?searchword=Chemical%20Engineers&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=728">Chemical Engineers</a></li><li class="item729"><a href="https://raket.ph/index.php?searchword=Civil%20Engineers&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=729">Civil Engineers</a></li><li class="item946"><a href="https://raket.ph/index.php?searchword=Electrical%20Engineers&amp;ordering=relevance&amp;location_id=0&amp;option=com_search&amp;Itemid=946">Electrical Engineers</a></li><li class="item725"><a href="https://raket.ph/index.php?searchword=Electronics%20Engineers&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=725">Electronics Engineers</a></li><li class="item727"><a href="https://raket.ph/index.php?searchword=Industrial%20Engineers&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=727">Industrial Engineers</a></li><li class="item726 last"><a href="https://raket.ph/index.php?searchword=Mechanical%20Engineers&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=726">Mechanical Engineers</a></li></ul></div></div>
+</li><li class="item711 parent"><a title="Fitness &amp; Athletics">Fitness &amp; Athletics</a><span class="dropdown-spacer"></span><div class="dropdown cols1 " style="width: 200px;">
+<div class="column col1 first" style="width: 200px;"><ul class="l3"><li class="item713 first"><a href="https://raket.ph/index.php?searchword=Coaches%20&amp;%20Trainers&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=713">Coaches &amp; Trainers</a></li><li class="item712 last"><a href="https://raket.ph/index.php?searchword=Fitness%20Consultants&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=712">Fitness Consultants</a></li></ul></div></div>
+</li><li class="item870 parent"><a title="General Works">General Works</a><span class="dropdown-spacer"></span><div class="dropdown cols1 " style="width: 200px;">
+<div class="column col1 first" style="width: 200px;"><ul class="l3"><li class="item874 first"><a href="https://raket.ph/index.php?searchword=Automotive%20Mechanics&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=874">Automotive Mechanics</a></li><li class="item875"><a href="https://raket.ph/index.php?searchword=Carpenters&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=875">Carpenters</a></li><li class="item943"><a href="https://raket.ph/index.php?searchword=Contractors&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=943">Contractors</a></li><li class="item877"><a href="https://raket.ph/index.php?searchword=Drivers&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=877">Drivers/Transport Services</a></li><li class="item873"><a href="https://raket.ph/index.php?searchword=Electricians&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=873">Electricians</a></li><li class="item832"><a href="https://raket.ph/index.php?searchword=Handy%20Man&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=832">Handy Man</a></li><li class="item876"><a href="https://raket.ph/index.php?searchword=House%20Helpers&amp;location_id=0&amp;option=com_search&amp;Itemid=876">House Helpers</a></li><li class="item886"><a href="https://raket.ph/index.php?searchword=Plumbers&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=886">Plumbers</a></li><li class="item944"><a href="https://raket.ph/index.php?searchword=Upholsterers&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=944">Upholsterers</a></li><li class="item872 last"><a href="https://raket.ph/index.php?searchword=Welders&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=872">Welders</a></li></ul></div></div>
+</li><li class="item647 parent"><a title="Professional Sciences">Professional Sciences</a><span class="dropdown-spacer"></span><div class="dropdown cols1 " style="width: 200px;">
+<div class="column col1 first" style="width: 200px;"><ul class="l3"><li class="item869 first"><a href="https://raket.ph/index.php?searchword=Agriculturists&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=869">Agriculturists</a></li><li class="item880"><a href="https://raket.ph/index.php?searchword=Environmentalists&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=880">Environmentalists</a></li><li class="item938"><a href="https://raket.ph/index.php?searchword=Food%20Consultants&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=938">Food Consultants</a></li><li class="item835"><a href="https://raket.ph/index.php?searchword=Medical%20Service%20Assistants&amp;ordering=relevance&amp;location_id=0&amp;option=com_search&amp;Itemid=835">Medical Service Assistants</a></li><li class="item708"><a href="https://raket.ph/index.php?searchword=Nurses&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=708">Nurses</a></li><li class="item715"><a href="https://raket.ph/index.php?searchword=Nutritionists&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=715">Nutritionists</a></li><li class="item936"><a href="https://raket.ph/index.php?searchword=Pharmacists&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=936">Pharmacists</a></li><li class="item836"><a href="https://raket.ph/index.php?searchword=Physical%20Therapists&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=836">Physical Therapists</a></li><li class="item670"><a href="https://raket.ph/index.php?searchword=Psychologists&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=670">Psychologists</a></li><li class="item889"><a href="https://raket.ph/index.php?searchword=Scientists&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=889">Scientists</a></li><li class="item710 last"><a href="https://raket.ph/index.php?searchword=Veterinarians&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=710">Veterinarians</a></li></ul></div></div>
+</li><li class="item871 parent"><a title="Specialized Services">Specialized Services</a><span class="dropdown-spacer"></span><div class="dropdown cols1 " style="width: 200px;">
+<div class="column col1 first" style="width: 200px;"><ul class="l3"><li class="item885 first"><a href="https://raket.ph/index.php?searchword=Bouncers%20&amp;%20Body%20Guards&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=885">Bouncers &amp; Body Guards</a></li><li class="item730"><a href="https://raket.ph/index.php?searchword=Fabricators&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=730">Fabricators</a></li><li class="item948"><a href="https://raket.ph/index.php?searchword=Floral%20Designers&amp;ordering=relevance&amp;location_id=0&amp;option=com_search&amp;Itemid=948">Floral Designers</a></li><li class="item883"><a href="https://raket.ph/index.php?searchword=Embalmers&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=883">Embalmers</a></li><li class="item890"><a href="https://raket.ph/index.php?searchword=Landscaping%20Professionals&amp;ordering=relevance&amp;location_id=0&amp;option=com_search&amp;Itemid=890">Landscaping Professionals</a></li><li class="item884 last"><a href="https://raket.ph/index.php?searchword=Private%20Detectives&amp;ordering=relevance&amp;location_id=0&amp;option=com_search&amp;Itemid=884">Private Detectives</a></li></ul></div></div>
+</li><li class="item666 parent"><a title="Writing &amp; Linguistics">Writing &amp; Linguistics</a><span class="dropdown-spacer"></span><div class="dropdown cols1 " style="width: 200px;">
+<div class="column col1 first" style="width: 200px;"><ul class="l3"><li class="item719 first"><a href="https://raket.ph/index.php?searchword=Language%20Translators&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=719">Language Translators</a></li><li class="item720"><a href="https://raket.ph/index.php?searchword=Proofreaders%20&amp;%20Editors&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=720">Proofreaders &amp; Editors</a></li><li class="item667 last"><a href="https://raket.ph/index.php?searchword=Writers&amp;ordering=relevance&amp;location_id=0&amp;limit=10&amp;option=com_search&amp;Itemid=667">Writers</a></li></ul></div></div>
+</li><li class="item796 last"><a href="https://raket.ph/contact-us.html">SUGGEST A CATEGORY</a></li></ul></div></div>
+</li></ul>
+        </nav> <!-- menu end -->
+
+        </div></div></div>                </section>
+            
+    </nav>
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium w3-large">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">My Profile</a>
+</div>
+
+<!-- Page Container -->
+<div class="w3-container w3-content" style="max-width:1400px;margin-top:30px;margin-left:3%">    
+  <!-- The Grid -->
+  <div class="w3-row">
+    <!-- Left Column -->
+    <div class="w3-col m3">
+      <!-- Profile -->
+      <div class="w3-card w3-round w3-white">
+        <div class="w3-container">
+         <h4 class="w3-center"></h4>
+         <br>
+         <p class="w3-center"><img src="img/seeker1.png" class="w3-circle" style="height:106px;width:106px" alt="Avatar"></p>
+         <hr>
+          <p><i class="fa fa fa fa-user fa-fw w3-margin-right w3-text-theme"></i>Gemma Prialde</p>
+         <p><i class="fa fa-home fa-fw w3-margin-right w3-text-theme"></i>Guadalupe, Cebu City</p>
+         <p><i class="fa fa-birthday-cake fa-fw w3-margin-right w3-text-theme"></i> October 20, 1988</p>
+        </div>
+      </div>
+      <br>
+      
+      <!-- Accordion -->
+      <div class="w3-card w3-round">
+        <div class="w3-white">
+          <div id="Demo1" class="w3-hide w3-container">
+            <p>Some text..</p>
+          </div>
+           <a href="file:///C:/Users/MarveeLoper/Downloads/Storyboard%20PM/creative-agency-colorlib/creative-agency/seeker/dashboard/dashboard.html"><button onclick="myFunction('Demo2')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa   fa fa-user fa-fw w3-margin-right"></i>
+           My Profile</button></a>
+           <a href="file:///C:/Users/MarveeLoper/Downloads/Storyboard%20PM/creative-agency-colorlib/creative-agency/seeker/dashboard/message.html"><button onclick="myFunction('Demo2')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa   fa fa-comments-o fa-fw w3-margin-right"></i> Messages</button></a>
+          <div id="Demo2" class="w3-hide w3-container">
+            <p>Some other text..</p>
+          </div>
+          <button onclick="myFunction('Demo3')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa   fa fa-handshake-o fa-fw w3-margin-right"></i> My Chosen Passers </button>
+          <button onclick="myFunction('Demo3')" class="w3-button w3-block w3-theme-l1 w3-left-align" data-toggle="modal" data-target="#myreviews"><i class="fa fa fa-star fa-fw w3-margin-right" ></i> My Reviews and Ratings </button>
+             <!--  MODAL -->
+          <div class="modal fade" id="myreviews" role="dialog">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header" style="background-color: #b2cdf7">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title" style="color:white">My Reviews and Rating</h4>
+              </div>
+              <div class="modal-body">
+              <img src="img/pablo1.jpg" style="border-radius: 50px;width:50px">
+               <p style="font-size:15px">Reviewer:Pablo Franco</p>
+               <p>
+                <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span> Very Good
+                </p>
+                  <textarea style="width:50%;font-size:18px" value="" readonly>Grabe kay siya mo abiabi, saktos sweldo,naa pay free snacks! Thank you mam</textarea>
+                 
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal" style="background-color: red;color:white">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!--   humana modal -->
+          <button onclick="myFunction('Demo3')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa   fa fa-handshake-o fa-fw w3-margin-right"></i>My Employment Agreement Records </button>
+
+          <div id="Demo3" class="w3-hide w3-container">
+         <div class="w3-row-padding">
+         <br>
+           <div class="w3-half">
+             <img src="/w3images/lights.jpg" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="/w3images/nature.jpg" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="/w3images/mountains.jpg" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="/w3images/forest.jpg" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="/w3images/nature.jpg" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="/w3images/fjords.jpg" style="width:100%" class="w3-margin-bottom">
+           </div>
+         </div>
+          </div>
+        </div>      
+      </div>
+      <br>
+      
+      <!-- Interests --> 
+      <div class="w3-card w3-round w3-white w3-hide-small">
+        <div class="w3-container">
+          <p>Job Offer Form</p>
+          <p>
+            This will be the job form that you will offer to your chosen passer, Mate
+          </p>
+          <hr>
+          <button style="border:none;background-color:transparent;width:100%" data-toggle="modal" data-target="#myModaloffer">
+           <p style="text-align:center;color:#1b6ff7;font-weight:bold;cursor:pointer"><i class="fa fa-plus-circle" style="font-size:18px; color:#1b6ff7;"></i> Add your JO Form</p></button>
+              <!-- Modal -->
+      <div class="modal fade" id="myModaloffer" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header" style="background-color:#e8ecf2">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title" style="color:black"></h4>
+            </div>
+            <div class="modal-body">
+              <h3>Your Job Offer Form</h3>
+            <table style="border-collapse: collapse;width:100%">
+              <tr>
+                <td>
+                  <p>Job Title:<br>
+                    <select style="width:50%">
+                      <option value="volvo">Carpenter</option>
+                      <option value="saab">Manicurista</option>
+                      <option value="opel">Technician</option>
+                      <option value="audi">Welder</option>
+                    </select>
+                  </p>
+                </td>
+                <td>
+                  <p>Civil Status:<br>
+                    <select style="width:50%">
+                      <option value="volvo">Married</option>
+                      <option value="saab">Single</option>
+                      <option value="opel">Widow</option>
+                    </select> 
+                  </p>
+              </td>
+
+              </tr>
+              <tr>
+                <td>
+                  <p>Work Materials provided:<br>
+                      <input type="radio" name="Materials" value="yes" checked> Yes<br>
+                      <input type="radio" name="Materials" value="no"> No<br>
+                  </p>
+                </td>
+                <td>
+                  <p>Working Address:<br>
+                    <select style="width:80%">
+                      <option value="volvo">Duljo, Cebu City</option>
+                      <option value="saab">Manicurista</option>
+                      <option value="opel">Technician</option>
+                      <option value="audi">Welder</option>
+                    </select>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>Start Date:<br> 
+                  <input type="date" name="">
+                </p>
+              </td>
+                <td>
+                  <p>End Date:<br>
+                    <input type="date" name=""> 
+                  </p>
+                </td>
+              </tr>
+                <tr>
+                <td>
+                  <p>Preferred type of accomodation:<br> 
+                    <input type="radio" name="type" value="in">In House
+                    <input type="radio" name="type" value="off">Off Site
+                  </p>
+                </td>
+                <td>
+                  <p>Payment Type:<br>
+                    <input type="radio" name="payment" value="online">Online
+                    <input type="radio" name="payment" value="offline">Offline
+                  </p>
+                </td>
+              </tr>
+            </table>
+            <p> Add Message: </p>
+              <textarea style="width:100%" placeholder=" Please type here..."></textarea>
+            <hr>
+            <button style="width:100%;border:none;background-color:white;height:40px;color:#1b6ff7;font-weight: bold"><i class="fa fa-plus-circle" style="font-size:18px; color:#1b6ff7;"></i> Create New JO Form
+            </button>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal" style="background-color:green;color:white;font-weight: bold;">Submit</button>
+              <button type="button" class="btn btn-default" data-dismiss="modal" style="background-color:red;color:white;font-weight: bold;">Close</button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    <!--   manang modal -->
+        </div>
+      </div>
+      <br>
+      
+      <!-- Alert Box -->
+      <div class="w3-container w3-display-container w3-round w3-theme-l4 w3-border w3-theme-border w3-margin-bottom w3-hide-small">
+     
+        </span>
+        
+      </div>
+    
+    <!-- End Left Column -->
+    </div>
+    
+    <!-- Middle Column -->
+    <div class="grid-temp1">
+      <div></div>
+      <div class="grid-con1">
+        <br>
+        <h4 style="margin-left:20px">Personal Details</h4>
+        <p style="font-size:18px;margin-left:20px;font-size:25px"><i class="fa fa-address-card" style="font-size:15px;color:#1b6ff7"></i> Gemma Prialde
+         </p>
+         <p style="font-size:18px;margin-left:20px;font-size:18px;"><i class="fa fa-map-marker" style="font-size:24px;color:red"></i> Guadalupe, Cebu City
+         </p>
+          <p style="font-size:18px;margin-left:20px;font-size:18px;"><i class="fa fa-phone" style="font-size:24px;color:green"></i> 1224435534
+         </p>
+          <hr>
+          <p style="text-align:center;color:#1b6ff7;font-weight:bold;cursor:pointer"><i class="fa fa-plus-circle" style="font-size:18px; color:#1b6ff7;"></i> Add personal details</p>
+      </div>
+      <div></div>
+      <div class="grid-con2">
+        <table style="border-collapse: collapse;width:100%">
+          <tr>
+            <td colspan="7" style="background-color:#94b5f7;" >
+              <p style="margin-left: 40%;font-size:20px;font-weight: bold;color:white">MARCH</p>
+              <small style="margin-left:45%;font-size:15px;color:white">2018</small>
+            </td>
+          </tr>
+           <tr style="text-align: center">
+            <td style="background-color:#e1e5ed;" >
+              <p>Mon</p>
+            </td>
+             <td style="background-color:#e1e5ed;" >
+              <p>Tue</p>
+            </td>
+             <td style="background-color:#e1e5ed;" >
+              <p>Wed</p>             
+            </td>
+             <td style="background-color:#e1e5ed;" >
+              <p>Thu</p> 
+            </td>
+             <td style="background-color:#e1e5ed;" >
+             <p>Fri</p>
+            </td>
+             <td style="background-color:#e1e5ed;" >
+             <p>Sat</p>
+            </td>
+             <td style="background-color:#e1e5ed;" >
+             <p>Sun</p>
+            </td>
+          </tr>
+          <tr style="text-align: center;">
+            <td style="background-color:#f4f5f7;" >
+              <p>1</p>
+            </td>
+             <td style="background-color:#f4f5f7;" >
+              <p>2</p>
+            </td>
+             <td style="background-color:#f4f5f7;" >
+              <p>3</p>             
+            </td>
+             <td style="background-color:#f4f5f7;" >
+              <p>4</p> 
+            </td>
+             <td style="background-color:#f4f5f7;" >
+             <p>5</p>
+            </td>
+             <td style="background-color:#f4f5f7;" >
+             <p>6</p>
+            </td>
+             <td style="background-color:#f4f5f7;" >
+             <p>7</p>
+            </td>
+          </tr>
+            <tr style="text-align: center;">
+            <td style="background-color:#f4f5f7;" >
+              <p>8</p>
+            </td>
+             <td style="background-color:#f4f5f7;" >
+              <p>9</p>
+            </td>
+             <td style="background-color:#f4f5f7;" >
+              <p>10</p>             
+            </td>
+             <td style="background-color:#f4f5f7;" >
+              <p>11</p> 
+            </td>
+             <td style="background-color:#f4f5f7;" >
+             <p>12</p>
+            </td>
+             <td style="background-color:#f4f5f7;" >
+             <p>13</p>
+            </td>
+             <td style="background-color:#f4f5f7;" >
+             <p>14</p>
+            </td>
+          </tr>
+          <tr style="text-align: center;">
+            <td style="background-color:#f4f5f7;" >
+              <p>15</p>
+            </td>
+             <td style="background-color:#f4f5f7;" >
+              <p>16</p>
+            </td>
+             <td style="background-color:#f4f5f7;" >
+              <p>17</p>             
+            </td>
+             <td style="background-color:#f4f5f7;" >
+              <p>18</p> 
+            </td>
+             <td style="background-color:#f4f5f7;" >
+             <p>19</p>
+            </td>
+             <td style="background-color:#f4f5f7;" >
+             <p>20</p>
+            </td>
+             <td style="background-color:#f4f5f7;" >
+             <p>21</p>
+            </td>
+          </tr>
+          <tr style="text-align: center;">
+            <td style="background-color:#f4f5f7;" >
+              <p>24</p>
+            </td>
+             <td style="background-color:#f4f5f7;" >
+              <p>25</p>
+            </td>
+             <td style="background-color:#f4f5f7;" >
+              <p>26</p>             
+            </td>
+             <td style="background-color:#f4f5f7;" >
+              <p>27</p> 
+            </td>
+             <td style="background-color:#f4f5f7;" >
+             <p>28</p>
+            </td>
+             <td style="background-color:#f4f5f7;" >
+             <p>29</p>
+            </td>
+             <td style="background-color:#f4f5f7;" >
+             <p>30</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <br>
+    <div class="grid-temp1">
+      <div></div>
+      <div class="grid-con1">
+        <br>
+        <h4 style="margin-left:20px">Add your company</h4>
+        <p style="font-size:18px;margin-left:20px">PassersMate will help your company to find a trusted and skilled passer<br>
+          <a style="border:1px solid blue;cursor:pointer">Don't have a company yet?</a></p>
+          <hr>
+          <p style="text-align:center;color:#1b6ff7;font-weight:bold;cursor:pointer"><i class="fa fa-plus-circle" style="font-size:18px; color:#1b6ff7;"></i> Add company</p>
+      </div>
+      <div></div>
+       <div class="grid-con3">
+         <button id="phover" style="width:100%;height:20%;border:none;background:none;text-align: left;" ><i class="fa fa-eye" style="font-size:18px;color:blue"></i>Preview Profile </button>
+         <hr>
+           <button id="phover" style="width:100%;height:20%;border:none;background:none;text-align: left;" ><i class="fa fa-history" style="font-size:18px;color:blue"></i>Transaction Histories</button>
+           <br>
+     <!-- map sauna -->
+      </div>
+    </div>
+     <br>
+      <div class="grid-temp2">
+      <div></div>
+      <div class="grid-con1">
+        <br>
+        <h4 style="margin-left:20px">Your Approval, Mate</h4>
+        <p style="font-size:18px;margin-left:20px">This will be your confirmation</p>
+          <table style="border-collapse: collapse;width:100%">
+            <tr style="background-color:#94b5f7;color:white;">
+               <th  style="width:16.66%;text-align:center">
+                <p>Image</p>
+              </th>
+              <th  style="width:16.66%;text-align:center">
+                <p>Passers Name</p>
+              </th>
+              <th style="width:16.66%;text-align:center">
+                <p>Job Title</p>
+              </th>
+              <th style="width:16.66%;text-align:center">
+                <p>Start Date</p>
+              </th>
+                 <th style="width:16.66%;text-align:center">
+                <p>End Date</p>
+              </th>
+                <th style="width:16.66%;text-align:center">
+                <p>Action</p>
+              </th>
+            </tr>
+            <tr>
+              <td style="height:50px;text-align: center">
+                <img src="img/pablo1.jpg" style="width:80px">
+              </td>
+               <td style="height:50px;text-align: center">
+                <p style="font-weight: bold">Pablo Franco</p>
+              </td>
+              <td style="height:50px;text-align: center">
+                <p style="font-weight: bold">Carpenter</p>
+              </td>
+               <td style="height:50px;text-align: center">
+                <p style="font-weight: bold">February 6, 2018</p>
+              </td>
+               <td style="height:50px;text-align: center">
+                <p style="font-weight: bold">March 6, 2018</p>
+              </td>
+                <td style="height:50px;text-align: center">
+                <button style="width:120px;background-color: #2fd85f;color:white;font-weight: bold;border:none" data-toggle="modal" data-target="#myModal">Approve Job Done</button>
+                  <!--  MODAL -->
+          <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header" style="background-color:#a4c5f9">
+                <button style="color:red" type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title" style="color:black;">Thank You So much, Mate</h4>
+              </div>
+              <div class="modal-body">
+                <p> Would you like to rate Pablo for his service, Gemma?</p>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <p style="font-size:12px">Very Good</p>
+                  <textarea style="width:50%;font-size:18px"placeholder="WOW!thats something. Send a feedback to Pablo."></textarea>
+                  <br>
+                  <button style="background-color:#2fd85f;color:white;border:none;font-weight: bold">Submit</button>
+                  <br>
+                  <img src="img/or.png" style="margin-left:5px">
+                  <br>
+                  <button style="border:none;background-color:  #f46242;color:white;font-weight: bold">File a Dispute</button>
+              </div>
+              <div class="modal-footer">
+               <button style="border:none;background-color:  #f46242;color:white;font-weight: bold" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div><!-- human sa modal -->
+
+                <br>
+                <br>
+                <button style="background-color: #f46242;width:120px;color:white;font-weight: bold;border:none " data-toggle="modal" data-target="#myModaldispute">Report/Dispute</button>
+                      <!--  MODAL -->
+          <div class="modal fade" id="myModaldispute" role="dialog">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header" style="background-color: #f46242">
+                <button style="color:red" type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title" style="color:white;">File a Dispute</h4>
+              </div>
+              <div class="modal-body">
+                <p>Can you give us some reasons why you file a dispute to Pablo?</p>
+                  <textarea style="width:50%;font-size:18px"></textarea>
+                  <br>
+                  <button style="background-color:#2fd85f;color:white;border:none;font-weight: bold">Submit</button>
+                
+              </div>
+              <div class="modal-footer">
+               <button style="border:none;background-color:  #f46242;color:white;font-weight: bold" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div><!-- human sa modal -->
+
+              </td>
+            </tr>
+          </table>
+      </div>
+        </div>
+
+    
+    <!-- End Middle Column -->
+    
+    <!-- Right Column -->
+    
+      
+    <!-- End Right Column -->
+    
+  <!-- End Grid -->
+  </div>
+  
+<!-- End Page Container -->
+</div>
+<br>
+<br>
+<br>
+  <!-- Footer -->
+  <footer id="footer" class="sm-padding bg-dark">
+
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Row -->
+      <div class="row">
+
+        <div class="col-md-12">
+
+          <!-- footer logo -->
+          <div class="footer-logo">
+            <a href="index.html"><img src="img/logo-alt.png" alt="logo"></a>
+          </div>
+          <!-- /footer logo -->
+
+          <!-- footer copyright -->
+          <div class="footer-copyright">
+            <p style="color:white">Copyright © 2018. All Rights Reserved. Designed by <a href="file:///C:/Users/MarveeLoper/Downloads/Storyboard%20PM/creative-agency-colorlib/creative-agency/index.html" target="_blank">PassersMate</a></p>
+          </div>
+          <!-- /footer copyright -->
+
+        </div>
+
+      </div>
+      <!-- /Row -->
+
+    </div>
+    <!-- /Container -->
+
+  </footer>
+  <!-- /Footer -->
+
+</body>
+</html> 
